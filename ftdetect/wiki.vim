@@ -21,4 +21,4 @@
 " SOFTWARE.
 
 au BufNewFile,BufRead *.wiki set filetype=markdown
-au BufWritePre,FileWritePre *.wiki call wiki#UpdateMetadata()
+au BufWritePre,FileWritePre *.wiki call zhishi#UpdateMetadata()
