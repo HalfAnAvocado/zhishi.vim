@@ -1,4 +1,4 @@
-# Zhishi.vim｜知識.vim
+# :memo: Zhishi.vim｜知識.vim
 
 Zhishi.vim is a minimalist Vim plugin to handle personal knowledge management (PKM). It can be used to create a simple personal wiki, Zettelkasten or digital notebook. The main goal of this plugin and its main difference to other competitors is that it tries to [KISS](https://en.wikipedia.org/wiki/KISS_principle).
 
