@@ -28,6 +28,8 @@ Make sure to also install any missing [dependencies](#dependencies).
 
 ## Usage
 
+### Initial Configuration
+
 The following global variables **have to** be configured in your `.vimrc` file:
 ```vim
 let g:zhishi_directory = "~/zettelkasten/"
@@ -36,6 +38,8 @@ let g:zhishi_template_file = ".template"
 let g:zhishi_file_ending = "wiki"
 ```
 The template file defined in `g:zhishi_template_file` **needs** to reside in the directory defined in `g:zhishi_directory` and have the file ending defined in `g:zhishi_file_ending`. In the example above its location and full name would be: `~/zettelkasten/.template.wiki`. The same applies to the index file defined in `g:zhishi_index_file`.
+
+### Available Commands
 
 The following shows an example configuration of shortcuts covering all of the available commands:
 
@@ -48,6 +52,23 @@ nnoremap <Leader>no :ZhishiOpenNote<CR>
 nnoremap <Leader>nO :ZhishiOpenNoteByTitle<CR>
 ```
 **Note:** Default shortcuts are not configured by the plugin.
+
+### Template Example
+
+```markdown
+---
+title:
+id: <ID>
+author: Marvin Elsen <contact@marvin-elsen.com>
+date: <NOW>
+modified: <NOW>
+tags:
+---
+
+# Description
+
+# References
+```
 
 ## Contributing
 
