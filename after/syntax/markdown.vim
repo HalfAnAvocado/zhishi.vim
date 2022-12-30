@@ -20,5 +20,5 @@
 " OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 " SOFTWARE.
 
-syntax match zettelLink /\[\[\d\{14}\.wiki\]\]/
-hi def link zettelLink Statement
+syntax match zhishiLink /\[\[\d\{14}\.wiki\]\]/
+hi def link zhishiLink Statement
